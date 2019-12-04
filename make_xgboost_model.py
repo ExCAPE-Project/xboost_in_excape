@@ -60,7 +60,7 @@ model.fit(X_train, y_train)
 #predictions['hyperparam'] = hyperparam_str
 #predictions['target'] = target_idx
 
-WORKDIR="/projects/cc/kxsw653/ExCAPE-ML_v5/ML_models_results/results_v5_xgboost_ecfp"
+WORKDIR="results_v5_xgboost_ecfp"
 
 #print("predictions saved in {}/nested-cv-predictions/predictions-1-1-1-6-{}.pickle".format(WORKDIR, target_idx))
 #predictions.to_pickle("{}/nested-cv-predictions/predictions-1-1-1-6-{}.pickle".format(WORKDIR,target_idx))

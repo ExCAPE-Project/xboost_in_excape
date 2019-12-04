@@ -10,8 +10,6 @@ import os,sys
 import pandas as pd
 import pickle
 
-os.chdir("/projects/cc/kxsw653/ExCAPE-ML_v5/ML_models_results/results_v5_xgboost_ecfp")
-
 if len(sys.argv)!=7: 
     print("Usage: {} [target_idx] [obj] [lr] [scale_pos_w] [n_Estim] [max_depth]".format(sys.argv[0]) )
     quit()
